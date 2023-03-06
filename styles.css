@@ -7,6 +7,10 @@ a {
     font-weight: bold;
 }
 
+li {
+    list-style-type: none;
+}
+
 .Nav {
     font-weight: bold;
     display: flex;
@@ -148,23 +152,70 @@ header {
 
 }
 
-.Link {
-    /* position: static;
-    align-items: flex-end; */
-
-}
-
 #space-p {
     height: 180px;
+}
+
+.contact-media {
+    display: grid;
 }
 
 .contact {
     display: flex;
     justify-content: space-evenly;
-    margin: 50px;
+    margin: 25px;
+    padding: 25px;
+    /* margin: 20px; */
+
 }
+
+.contact-right {
+    margin-bottom: 10px;
+}
+
+.social-network {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+}
+
 
 .contact-content {
     display: grid;
     width: 12%;
+    line-height: 20px;
+}
+
+.media {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+
+}
+
+
+.footer-right {
+
+    align-self: center;
+}
+
+
+.img {
+    margin: 15px;
+    justify-self: center;
+
+}
+
+.footer {
+    color: white;
+    display: grid;
+    background-color: black;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+.partners {
+    display: flex;
+    justify-content: center;
 }
