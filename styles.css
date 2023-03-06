@@ -2,6 +2,11 @@ body {
     font-family: sans-serif;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .Nav {
     font-weight: bold;
     display: flex;
@@ -13,8 +18,7 @@ body {
 }
 
 #nav-icone {
-    /* margin: 10px; */
-    /* padding: 20px; */
+    letter-spacing: 1px;
     list-style-type: none;
 
 }
@@ -89,36 +93,45 @@ header {
     margin: 20px;
 }
 
-section {
-    background-color: gray;
-    /* text-align: center; */
-    /* margin: 0%; */
+.info-new {
+    background-color: #e2e2e2;
+    padding: 50px;
+
 }
 
 .campus-news {
+    text-align: left;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+.left-part {
+    width: 47%;
 }
 
 #newsroom {
-    width: 9%;
+    /* width: 9%; */
+    padding: 10px 20px 10px 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
     justify-self: center;
     background: none;
-    color: white;
-    padding: 5px 5px;
-    border: solid 1px white;
+    color: black;
+    border: solid 1px black;
     font-family: sans-serif;
     margin: 30px 40px;
-    font-weight: bold;
 }
 
 .infos-news {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
+    font-weight: bold;
 }
 
 #infos-news-contents {
     margin: 0 180px;
+    /* height: 500px; */
 }
 
 .infos-btn-line {
@@ -127,10 +140,31 @@ section {
 }
 
 #infos-btn {
-    text-align: center;
+    text-decoration: none;
     background: none;
     border: none;
-    color: blue;
-    letter-spacing: 4px;
-    padding: 34px 80 34px 80;
+    color: #bb76ec;
+    letter-spacing: 3px;
+
+}
+
+.Link {
+    /* position: static;
+    align-items: flex-end; */
+
+}
+
+#space-p {
+    height: 180px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.contact-content {
+    display: grid;
+    width: 12%;
 }
